@@ -1,0 +1,24 @@
+{
+    "name": "php_aut/php_aut",
+    "description": "PHP authentication",
+    "type": "project",
+    "require": {
+      "php": "^8.2",
+      "vlucas/phpdotenv": "^5.4"
+    },
+    "require-dev": {
+      "squizlabs/php_codesniffer": "^3.6",
+      "friendsofphp/php-cs-fixer": "^3.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "App\\": "app/"
+      }
+    },
+    "config": {
+      "optimize-autoloader": true,
+      "preferred-install": "dist"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+  }
