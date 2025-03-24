@@ -21,10 +21,13 @@ This is a simple web application that implements user registration and authentic
 1)Clone the repository to your local machine.
 
 Execute commands
+
 2)docker compose build --no-cache
+
 3)docker compose up -d
 
 Configure the .env file
 
 Run the command to initialize the database
+
 4)php initial_db.php
